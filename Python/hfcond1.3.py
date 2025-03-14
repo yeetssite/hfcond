@@ -14,7 +14,7 @@ import time   # For other time stuff, like time.sleep() <https://docs.python.org
 from datetime import timezone # For less typing(use "timezone()" instead of "datetime.timezone()"
 import sys          # Mostly for working with STDOUT: <https://docs.python.org/3/library/sys.html#sys.stdout>
 import os
-forecast_types = ["Solar Activity", "Solar Wind", "Energetic Particles", "Geospace"]
+registered_headers = ["Solar Activity", "Solar Wind", "Energetic Particles", "Geospace"]
 
 def successful_connection():
     try:
@@ -28,7 +28,7 @@ def successful_connection():
             return False
 
 # Script info
-version = 1.3
+version = 1.3.1
 
 exitScript = False
 
@@ -140,7 +140,7 @@ for line in wwvtext:
     if for_tts:
         line = line.replace(b"UTC", b"Coordinated Universal Time")
         line = line.replace(b"?", b"unknown")
-    for item in forecast_types:
+    for item in registered_headers:
         if item.encode('UTF-8') in line:
             if styled:
                 printline = False
