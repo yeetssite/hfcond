@@ -1,10 +1,10 @@
-:Product: HFCOND 1.3 - What's New
-:Issued: 2025 Mar 17 1800 UTC
+:Product: HFCOND 1.31 - What's New
+:Issued: 2025 Apr 15 1515 UTC
 # What's new page for hfcond <https://github.com/yeetssite/hfcond>
 # Written and issued by itsyeetsup(mangolover1899)
 HFcond 1.3.2 simply includes some tweaks with Whatsnew.
 
-The URL for the '-whatsnew' option has been change for development and simplification reasons:
+The URL for the '-whatsnew' option has been changed for development and simplification reasons:
 
 =============================================================================================================
                         OLD URL:                       ====>                     NEW URL:
@@ -15,10 +15,14 @@ https://yeetssite.github.io/shortwave/hfc-whatsnew.txt ====> https://yeetssite.g
 
 A warning has been left on the old whatsnew URL about this change, with all the relevant info necessary on how to
 change/update the URL by:
+
 ┃— Updating HFcond
- |—— Through the GitHub Releases page
- |—— Through Git
+||——— Through the GitHub Releases page
+||——— Through Git
+|
 ┃— Changing the source code
+||——— Advanced stuff
+||——— A guide on what line(s) to change will be published
 
 
 This page may be updated without notice, so remember to check in every once in a while!
