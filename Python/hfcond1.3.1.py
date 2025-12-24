@@ -14,7 +14,7 @@ import time   # For other time stuff, like time.sleep() <https://docs.python.org
 from datetime import timezone # For less typing(use "timezone()" instead of "datetime.timezone()"
 import sys          # Mostly for working with STDOUT: <https://docs.python.org/3/library/sys.html#sys.stdout>
 import os
-registered_headers = ["Solar Activity", "Solar Wind", "Energetic Particles", "Geospace"]
+registered_headers = ["Solar Activity", "Solar Wind", "Energetic Particles", "Geospace", "Energetic Particle"] # Yes, this is a manually updated list of terms used in NOAA's discussion. Kill me then.
 
 def successful_connection():
     try:
@@ -28,7 +28,7 @@ def successful_connection():
             return False
 
 # Script info
-version = 1.031
+version = 1.030
 
 exitScript = False
 
@@ -64,7 +64,7 @@ OPTIONs:
     -v, --version       Shows version info, then exits.
     -d, --discussion    Get the forecast discussion instead of HF conditions.
     -w, --whatsnew      Shows what's new with hfcond. Pulled from
-                        <https://yeetssite.github.io/hfcond/whatsnew.txt>
+                        <https://yeetssite.github.io/shortwave/hfc-whatsnew.txt>
 FLAGs:
     -n, --no-style      Output without ANSI escape styles.
     -t, --tts           Output text for a text-to-speech engine to say.
@@ -122,7 +122,7 @@ elif for_tts:
 if forecast_discussion:
     wwvtext_src = 'https://services.swpc.noaa.gov/text/discussion.txt' 
 elif whats_new:
-    wwvtext_src = 'https://yeetssite.github.io/hfcond/whatsnew.txt'
+    wwvtext_src = 'https://yeetssite.github.io/shortwave/hfc-whatsnew.txt'
 else:
     wwvtext_src = 'https://services.swpc.noaa.gov/text/wwv.txt'
 wwvtext = request.urlopen(wwvtext_src)                      
