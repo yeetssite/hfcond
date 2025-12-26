@@ -1,31 +1,37 @@
-:Product: HFCOND 1.31 - What's New
-:Issued: 2025 Apr 15 1515 UTC
+:Product: HFCOND 1.4 - What's New
+:Issued: 2025 Dec 26 0410 MDT
 # What's new page for hfcond <https://github.com/yeetssite/hfcond>
 # Written and issued by itsyeetsup(mangolover1899)
-HFcond 1.3.2 simply includes some tweaks with Whatsnew.
+HFcond 1.4 simply includes some tweaks with Whatsnew.
 
 The URL for the '-whatsnew' option has been changed for development and simplification reasons:
 
-=============================================================================================================
-                        OLD URL:                       ====>                     NEW URL:
-https://yeetssite.github.io/shortwave/hfc-whatsnew.txt ====> https://yeetssite.github.io/hfcond/whatsnew.txt
-                     OLD GIT REPO:                     ====>                   NEW GIT REPO:
-  https://github.com/yeetssite/yeetssite.github.io/    ====>      https://github.com/yeetssite/hfcond/
-=============================================================================================================
 
-A warning has been left on the old whatsnew URL about this change, with all the relevant info necessary on how to
-change/update the URL by:
+  [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+  []========================================================[]
+  []                       OLD URL:                 	    []
+  [] https://yeetssite.github.io/shortwave/hfc-whatsnew.txt []
+  []--------------------------TO----------------------------[]
+  []      		   NEW URL:			    []	
+  []     https://yeetssite.github.io/hfcond/whatsnew.txt/   []
+  []========================================================[]
+  [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+  []========================================================[]
+  []                     OLD GIT REPO:                      []
+  []    https://github.com/yeetssite/yeetssite.github.io/   []
+  []--------------------------TO----------------------------[]
+  []		         NEW GIT REPO:			    []
+  []           https://github.com/yeetssite/hfcond/	    []
+  []========================================================[]
+  [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 
-┃— Updating HFcond
-||——— Through the GitHub Releases page
-||——— Through Git
-|
-┃— Changing the source code
-||——— Advanced stuff
-||——— A guide on what line(s) to change will be published
 
+A warning has been left on the old whatsnew URL about this change. 
 
-This page may be updated without notice, so remember to check in every once in a while!
+For now, you will have to manually download and use the version from the repo, 
+but there is an installer/updater coming soon!
+
+This page may be updated without notice, so remember to check in every once in a while...
 
 .Upcoming
 Upcoming features include:
@@ -33,5 +39,8 @@ Upcoming features include:
 *  NOAA's Space Weather Advisory Outlook <https://services.swpc.noaa.gov/text/advisory-outlook.txt>
 *  Logging to text files
 *  Custom configuration
-*  An optional updater
-*  Quick condition summary(similar to NOAA's "current space weather conditions" header on their homepage)
+*  The installer
+*  Quick condition summary(similar to NOAA's "current space weather conditions" header on their 
+   homepage) and offline capibility
+*  Markup parser based off hfcond
+

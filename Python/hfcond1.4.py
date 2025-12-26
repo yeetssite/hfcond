@@ -122,7 +122,7 @@ elif for_tts:
 if forecast_discussion:
     wwvtext_src = 'https://services.swpc.noaa.gov/text/discussion.txt' 
 elif whats_new:
-    wwvtext_src = 'https://yeetssite.github.io/shortwave/hfc-whatsnew.txt'
+    wwvtext_src = 'https://yeetssite.github.io/hfcond/whatsnew.txt'
 else:
     wwvtext_src = 'https://services.swpc.noaa.gov/text/wwv.txt'
 wwvtext = request.urlopen(wwvtext_src)                      
